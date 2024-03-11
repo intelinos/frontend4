@@ -1,0 +1,167 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.toggle-link:hover {
+  text-decoration: underline;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #f9f9f9;
+  margin: 20% auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#header {
+  background-color: #b0c4de;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #f0f8ff;
+  color: black
+}
+
+#choose {
+  width: 60%;
+}
+
+#choose-form {
+  background-color: #d6d6d6;
+  border: 5px solid black;
+  width: 70%;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: saddlebrown;
+}
+
+#choose-form > div {
+  background-color: #ffffff;
+  margin: 2%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+.x_select {
+  padding-top: 2%;
+}
+
+#y_text {
+  text-align: center;
+}
+
+#submit_button {
+  width: 100%;
+}
+
+#submit {
+  padding: 0;
+}
+
+#graph-container{
+  width: 60%;
+}
+.form_margin{
+  margin: 5%;
+  width: 70%;
+}
+
+#subbuttons{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  position: relative;
+  left: 45%;
+}
+#graph {
+  width: 400px;
+  height: 400px;
+  margin: 12%;
+  border: 5px solid black;
+}
+
+#main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#table_div {
+  border: 5px solid black;
+  background-color: yellow;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#result-table {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#result-table th {
+  width: 16.6%;
+}
+
+#error_block {
+  color: red;
+  text-align: center;
+}
